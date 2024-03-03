@@ -13,7 +13,8 @@ public class Main {
         ArrayList<Task> tasksData = dataManager.loadData();
 
         System.out.println("Printing all data ...");
-        printAllData(tasksData);
+//        printAllData(tasksData);
+//        printAllDataUsingStreams(tasksData);
 
         System.out.println("Printing deadlines ...");
         printDeadlines(tasksData);
